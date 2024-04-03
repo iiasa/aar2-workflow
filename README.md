@@ -1,4 +1,4 @@
-# Scenario Explorer Workflow Template
+# Project Repository for the AAR2 Scenario Ensemble
 
 Copyright 2022-2024 IIASA
 
@@ -6,23 +6,16 @@ Copyright 2022-2024 IIASA
 
 ## Overview
 
-This is a template for project-specific scenario processing workflows.
-
-To use this template for a project, do the following:
-- Create a new repository from this template
-- Update the title and overview section of this Readme
-- Start adding definitions and mappings 
-- If you want to use the [common-definitions](https://github.com/IAMconsortium/common-definitions)
-  developed and maintained by the IAMC, rename the file `nomenclature_template.yaml`
-  to `nomenclature.yaml`.
+This repository has the project codelists and data-processing scripts for the
+scenario ensemble compiled for the Second Austrian Assessment Report (AAR2).
 
 ### Project nomenclature
 
-The folder `definitions` can contain the project nomenclature, i.e., list of allowed
+The folder `definitions` contains the project nomenclature, i.e., list of allowed
 variables and regions, for use in the validation workflow. See the **nomenclature**
 package for more information ([link](https://github.com/iamconsortium/nomenclature)).
 
-The folder `mappings` can contain model mappings that are used to register models and
+The folder `mappings` contains model mappings that are used to register models and
 define how results should be processed upon upload to a Scenario Explorer.
 
 ### Model registration
