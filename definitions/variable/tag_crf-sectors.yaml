@@ -1,0 +1,43 @@
+- CRF-Sector:
+    - Energy and Industrial Processes:
+        description: energy use and industrial processes
+        crf_code: [1, 2]
+    - Energy:
+        description: energy use, including fugitive emissions from fuels
+        crf_code: 1
+    - Energy|Supply:
+        description: fuel combustion in energy industries
+        crf_code: 1.A.1
+    - Energy|Demand:
+        description: fuel combustion in industry, transportation and buildings
+        crf_code: [1.A.2, 1.A.3, 1.A.4, 1.A.5]
+    - Energy|Demand|Industry:
+        description: fuel combustion in manufacturing industries and construction
+        crf_code: 1.A.2
+    - Energy|Demand|Transportation:
+        description: fuel combustion in transportation excluding emissions from international bunker fuels
+        crf_code: 1.A.3
+    - Energy|Demand|Residential and Commercial:
+        description: residential, commercial and institutional sectors
+        crf_code: 1.A.4
+    - Energy|Demand|Other:
+        description: other fuel combustion
+        crf_code: 1.A.5
+    - Energy|Fugitive:
+        description: fugitive emissions
+        crf_code: 1.B
+    - Industrial Processes:
+        description: industrial processes
+        crf_code: 2
+    - Agriculture:
+        description: agriculture
+        crf_code: 3
+    - Land Use, Land-Use Change and Forestry:
+        description: land-use, land-use change and forestry
+        crf_code: 4
+    - Waste:
+        description: waste
+        crf_code: 5
+    - International Bunkers [Memo Item]:
+        description: international bunker fuels (aviation and shipping)
+        crf_code: 1.D.1

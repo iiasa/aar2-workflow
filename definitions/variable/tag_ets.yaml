@@ -1,0 +1,7 @@
+- ETS:
+    - ETS:
+        description: covered by the European Union Emissions Trading System (EU ETS)
+        weight: ETS
+    - Non-ETS:
+        description: covered by the European Effort Sharing Regulation directive (ESR)
+        weight: Non-ETS
