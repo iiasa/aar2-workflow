@@ -1,0 +1,13 @@
+- Species:
+    - Kyoto Gases:
+        description: Kyoto GHG emissions, including CO2, CH4, N2O and F-gases
+        unit: Mt CO2e/yr
+    - CO2:
+        description: carbon dioxide (CO2)
+        unit: Mt CO2/yr
+    - CH4:
+        description: methane (CH4)
+        unit: Mt CH4/yr
+    - N2O:
+        description: nitrous oxide (N2O)
+        unit: kt N2O/yr

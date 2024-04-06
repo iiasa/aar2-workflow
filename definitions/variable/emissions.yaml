@@ -1,0 +1,22 @@
+- Emissions|{Species}:
+    description: Total net emissions of {Species}
+    unit: "{Species}"
+- Emissions|{Species} [excl. LULUCF]:
+    description: Total net emissions of {Species} excluding land-use, land-use change
+      and forestry
+    unit: "{Species}"
+- Emissions|{Species}|{CRF-Sector}:
+    description: Net emissions of {Species} from {CRF-Sector}
+    unit: "{Species}"
+
+- Emissions|CO2|Energy and Industrial Processes [Consumption-Based]:
+    description: Net carbon dioxide (CO2) emissions from fossil fuel combustion and
+      industrial processes using consumption-based accounting
+    unit: Mt CO2/yr
+
+- Emissions|{Species}|{ETS}:
+    description: Net emissions of {Species} from all sources in sectors {ETS}
+    unit: "{Species}"
+- Emissions|{Species}|{ETS}|{CRF-Sector}:
+    description: Net emissions of {Species} in {CRF-Sector} from sources {ETS}
+    unit: "{Species}"
